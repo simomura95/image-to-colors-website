@@ -63,7 +63,7 @@ def home():
     return render_template("index.html", colors=colors_hex, img=b64_file.decode('utf-8'))
 
 
-
+# #to run it from terminal
 # with Image.open("hades.png") as img:
 #     img_rgb = img.convert("RGB")  # to work with .png files (they have 4 channels)
 # img_array = np.array(img_rgb.getdata())
